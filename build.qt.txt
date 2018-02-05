@@ -1,0 +1,6 @@
+1. mingw32-qmake-qt4 USE_UPNP=- 
+2. 去掉 Makefile.Release 中的 -DQT_DLL
+3. cp Makefile.Release.qt Makefile.Release
+4. make clean 
+5. make -j4
+6. sh qt.static.sh
